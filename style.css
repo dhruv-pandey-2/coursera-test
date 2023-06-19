@@ -1,0 +1,107 @@
+/* Layout */
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+div {
+    border: 5px solid black;
+    position: relative;
+    top: 150px;
+    background-color: gray;
+}
+
+p {
+    position: relative;
+    clear: right;
+}
+
+.food {
+    padding: 5px;
+    height: 200px;
+    margin: 0px;
+    overflow: auto;
+    font-family: cursive;
+}
+
+
+.p1 {
+    border: 1.5px solid black;
+    text-align: center;
+    width: 150px;
+    float: right;
+    padding: 5px;
+    margin: 0px;
+    font-family: cursive;
+    background-color: rgb(250, 118, 118);
+}
+
+.p2 {
+    border: 1.5px solid black;
+    text-align: center;
+    width: 150px;
+    float: right;
+    padding: 5px;
+    margin: 0px;
+    font-family: cursive;
+    background-color: brown;
+    color: white;
+}
+
+.p3 {
+    border: 1.5px solid black;
+    text-align: center;
+    width: 150px;
+    float: right;
+    padding: 5px;
+    margin: 0px;
+    font-family: cursive;
+    background-color: rgb(255, 255, 118);
+}
+
+section {
+    padding: 15px;
+    position: relative;
+}
+
+.row {
+    width: 100%;
+}
+
+/* Large Devices (Desktop Version) */
+@media (min-width: 992px) {
+    .collg4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/* Medium Devices (Tablet Version) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .colmd6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colmd12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Small Devices (Mobile Version) */
+@media (max-width: 767px) {
+    .colsm12 {
+        float: left;
+        width: 100%;
+    }
+}
